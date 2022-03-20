@@ -1,0 +1,45 @@
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  background-image:url('../assests/Vorderrhein.svg'),  linear-gradient(315deg, #c7c6c3 0%, #fffbf7fa 74%);
+  background-position:67% bottom ;  
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color:	#eeeeee;
+  font-size: 18px;
+}
+
+.navbar-dark .navbar-toggler-icon  {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(235, 192, 138, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 987px) {
+  .navbar-collapse
+    {
+      top:-50px;
+     
+      position:relative;
+       
+    }
+}
+@media (max-width: 987px) {
+  .navbar-collapse a
+    {
+     
+      margin:0;
+      padding:5px;
+    }
+}
+
+.col-md-3 {
+  padding-top:75px;
+  border: none;
+  text-decoration: none;
+}

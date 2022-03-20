@@ -1,0 +1,76 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.landingdiv {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assests/aboutus.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #dddddd;
+  min-height: 100vh;
+  height: inherit;
+  width: 100%;
+  text-align: center;
+  color: #ebc08a;
+  display: table;
+}
+.Content {
+  display: table-cell;
+  margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+.Content h1 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 10vw !important;
+}
+.abouttext {
+  background-color: #e4d4c0;
+  min-height: 90vh;
+  height: inherit;
+  width: 100%;
+  text-align: center;
+  color: #648b7f;
+  display: table;
+}
+
+.description {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  font-size: 1.2vw;
+}
+.cardContainer {
+  text-align: center;
+    margin-left:100px;
+  margin-top: -30px;
+  background-color: #e4d4c0;
+  border: none;
+}
+
+.image {
+  border-radius: 10px;
+}
+.imageContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+  .description {
+    width: 100%;
+    font-size: 5vw;
+  }
+  .cardContainer {
+    margin-top: 50px;
+    margin-left:0;
+  }
+
+  .abouttext {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,71 @@
+.contactMain {
+  min-height: 110vh;
+  width: 100%;
+
+  height: 100%;
+  display: table;
+  color: #ebc08a;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assests/Solarworker.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #eeeeee;
+}
+
+.containthiscard {
+  box-shadow: 16px 10px 22px -3px rgba(0, 0, 0, 0.6);
+  width: 90vw;
+  margin: 0 auto;
+}
+.contactContainer {
+  border-radius: 0;
+  vertical-align: middle;
+  display: table-cell;
+  height: inherit !important;
+}
+.test {
+  border-radius: 0;
+  height: 100%;
+  min-height: 60vh;
+  background-color: rgba(240, 240, 240, 0.9);
+}
+
+@media (max-width: 987px) {
+  .gap {
+    display: block;
+    margin-bottom: 220px;
+  }
+}
+
+.titleForm {
+  text-align: center;
+  color: #ebc08a;
+}
+
+.input {
+  border: 1px solid #648b7f;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.contactbtn {
+  padding: 15px 30px;
+  width: 100%;
+  margin-top: 50px;
+  background: transparent;
+  border-radius: 0;
+  border: 4px solid #648b7f;
+  border-left: none;
+  border-right: none;
+  color: #648b7f;
+  font-weight: 600;
+}
+.contactbtn:hover {
+  color: #648b7f;
+  background-color: #ebc08a;
+  border: 4px solid #ebc08a;
+  border-left: none;
+  border-right: none;
+  transition-duration: 0.5s !important;
+}
