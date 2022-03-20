@@ -1,2 +1,2 @@
-website for a solar company who hired me.
-Build with next.js!
+using the next.js framework
+utilizing rest apis and sendgrid for the contact form.
