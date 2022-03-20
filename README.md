@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+website for a solar company who hired me.
+Build with next.js!
