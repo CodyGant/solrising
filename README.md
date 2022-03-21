@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+using the next.js framework
+utilizing rest apis and sendgrid for the contact form.
