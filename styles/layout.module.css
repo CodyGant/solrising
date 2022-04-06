@@ -1,7 +1,7 @@
 /* NAVBAR STYLES */
 
 .navlogo {
-  width: 10em !important;
+  width: 25em !important;
   height: auto !important;
 }
 
@@ -59,12 +59,19 @@
 
 .landingContent {
   margin: 0 auto;
+  
   vertical-align: middle;
   display: table-cell;
+  font-size:15px;
+  font-weight: bold;
+  
 }
-
+.landingContent h1 {
+  font-size:20px;
+  font-weight: bold;
+}
 .landingButton {
-  padding: 15px 30px;
+  padding: 10px 15px;
   width: 210px;
   margin: 0 auto;
   background: transparent;

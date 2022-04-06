@@ -55,7 +55,7 @@ function Footer() {
                 <h5 className="text-uppercase">SOCIALS</h5>
                 <ul className="list-unstyled">
                   <li className={styles.instalogo}>
-                    <a href="#!">
+                    <a href="https://www.instagram.com/solrisingenergy/">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="50"
@@ -69,7 +69,7 @@ function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="#!">
+                    <a href="https://www.facebook.com/Solrisingenergy/">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="50"
