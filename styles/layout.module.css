@@ -13,6 +13,7 @@
 }
 
 .navlink a {
+  margin-top:-130px;
   font-size: 20px;
   color: #ebc08a !important;
   font-weight: 600;
@@ -39,7 +40,13 @@
   }
   .navlink a {
     width: 100%;
+    margin-top:0;
   }
+  
+.navlogo {
+  width: 13em !important;
+  height: auto !important;
+}
 }
 
 /* LABNDING PAGE STYLES */
@@ -57,10 +64,11 @@
   display: table;
 }
 
+
 .landingContent {
-  margin: 0 auto;
-  
-  vertical-align: middle;
+  top:150px;
+  padding-top:100px;
+  vertical-align:middle;
   display: table-cell;
   font-size:15px;
   font-weight: bold;
@@ -69,6 +77,7 @@
 .landingContent h1 {
   font-size:20px;
   font-weight: bold;
+
 }
 .landingButton {
   padding: 10px 15px;
