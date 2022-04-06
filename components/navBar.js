@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import { Navbar, Nav } from "react-bootstrap";
-import logo from "../assests/logo.png";
+import logo from "../assests/SolRising-black.png";
 import Image from "next/image";
 import styles from "../styles/layout.module.css";
 function navBar() {
